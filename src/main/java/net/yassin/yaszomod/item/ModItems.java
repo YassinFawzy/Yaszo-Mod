@@ -18,7 +18,7 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_ZIRCON= ITEMS.register("raw_zircon",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)));
     public static final RegistryObject<Item> ZIRCON_PEARL= ITEMS.register("zircon_pearl",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB).stacksTo(128)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB).stacksTo(16)));
 
     public static void register(IEventBus eventBus){
 
