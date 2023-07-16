@@ -1,4 +1,6 @@
 {
   "item.yaszomod.zircon": "Zircon",
-  "item.yaszomod.raw_zircon": "Raw Zircon"
+  "item.yaszomod.raw_zircon": "Raw Zircon",
+  "item.yaszomod.zircon_pearl": "Zircon Pearl",
+  "itemGroup.yaszotab": "Yaszo Mod"
 }
