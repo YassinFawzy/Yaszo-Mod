@@ -13,9 +13,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, YaszoMod.MOD_ID);
 
     public static final RegistryObject<Item> YASZON= ITEMS.register("yaszon",
-            ()-> new Item(new Item.Properties().stacksTo(128).durability(50).tab(CreativeModeTab.TAB_MISC)));
+            ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> RAW_YASZON= ITEMS.register("raw_yaszon",
-            ()-> new Item(new Item.Properties().stacksTo(128).durability(50).tab(CreativeModeTab.TAB_MISC)));
+            ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 
     public static void register(IEventBus eventBus){

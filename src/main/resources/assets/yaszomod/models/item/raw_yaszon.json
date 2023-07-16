@@ -1,5 +1,5 @@
 {
-  "parent": "items/generated",
+  "parent": "item/generated",
   "textures": {
     "layer0": "yaszomod:item/raw_yaszon"
   }
