@@ -17,6 +17,7 @@ public class YaszoMod
 {
     public static final String MOD_ID = "yaszomod";
     private static final Logger LOGGER = LogUtils.getLogger();
+
     public YaszoMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
