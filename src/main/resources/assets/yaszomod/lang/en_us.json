@@ -2,5 +2,9 @@
   "item.yaszomod.zircon": "Zircon",
   "item.yaszomod.raw_zircon": "Raw Zircon",
   "item.yaszomod.zircon_pearl": "Zircon Pearl",
+  "block.yaszomod.zircon_block": "Block of Zircon",
+  "block.yaszomod.zircon_ore": "Zircon Ore",
+  "block.yaszomod.deepslatezircon_ore": "Deepslate Zircon Ore",
+
   "itemGroup.yaszotab": "Yaszo Mod"
 }
