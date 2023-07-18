@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "yaszomod:block.endstone_zircon_ore"
+    "all": "yaszomod:block/endstonezircon_ore"
   }
 }

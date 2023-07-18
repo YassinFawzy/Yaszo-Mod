@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "yaszomod:block.zircon_block"
+    "all": "yaszomod:block/zircon_block"
   }
 }

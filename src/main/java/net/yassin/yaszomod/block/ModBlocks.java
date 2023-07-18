@@ -34,7 +34,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)),
             ModCreativeModeTab.YASZO_TAB);
-    public static final RegistryObject<Block> DEEPSLATEZIRCON_ORE= registerBlock("deepslatezircon_ore",
+    public static final RegistryObject<Block> DEEPSLATE_ZIRCON_ORE= registerBlock("deepslate_zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops(),
@@ -46,7 +46,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)),
             ModCreativeModeTab.YASZO_TAB);
-    public static final RegistryObject<Block> ENDSTONE_ZIRCON_ORE= registerBlock("endstone_zircon_ore",
+    public static final RegistryObject<Block> ENDSTONE_ZIRCON_ORE= registerBlock("endstonezircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops(),

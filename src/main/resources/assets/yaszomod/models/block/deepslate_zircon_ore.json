@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "yaszomod:block.deepslatezircon_ore"
+    "all": "yaszomod:block/deepslate_zircon_ore"
   }
 }
