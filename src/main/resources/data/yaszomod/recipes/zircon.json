@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"yaszomod:zircon_block"
+    }
+  ],
+  "result":{
+    "item": "yaszomod:zircon",
+    "count": 9
+  }
+}

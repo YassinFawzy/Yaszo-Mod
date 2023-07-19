@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"yaszomod:zircon"
+    }
+  ],
+  "result":{
+    "item": "yaszomod:zircon_nugget",
+    "count": 9
+  }
+}
