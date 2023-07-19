@@ -40,13 +40,13 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)),
             ModCreativeModeTab.YASZO_TAB);
-    public static final RegistryObject<Block> NETHERRACK_ZIRCON_ORE= registerBlock("netherrack_zircon_ore",
+    public static final RegistryObject<Block> NETHERRACK_ZIRCON_ORE= registerBlock("nether_zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)),
             ModCreativeModeTab.YASZO_TAB);
-    public static final RegistryObject<Block> ENDSTONE_ZIRCON_ORE= registerBlock("endstonezircon_ore",
+    public static final RegistryObject<Block> ENDSTONE_ZIRCON_ORE= registerBlock("end_zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops(),
