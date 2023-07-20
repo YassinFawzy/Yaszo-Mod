@@ -52,7 +52,9 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)),
             ModCreativeModeTab.YASZO_TAB);
-
+    public static final RegistryObject<Block> CHISELED_ZIRCON_BLOCK= registerBlock("chiseled_zircon_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f)),
+            ModCreativeModeTab.YASZO_TAB);
 
 
     //HELP REGISTER BLOCK AND THE ITEM FOR THE BLOCK
