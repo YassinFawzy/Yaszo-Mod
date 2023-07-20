@@ -11,6 +11,8 @@
   "block.yaszomod.nether_zircon_ore": "Netherrack Zircon Ore",
   "block.yaszomod.end_zircon_ore": "Endstone Zircon Ore",
   "block.yaszomod.chiseled_zircon_block": "Chiseled Zircon Block",
+  "block.yaszomod.zircon_brick": "Zircon Brick",
+  "block.yaszomod.chiseled_zircon_brick": "Chiseled Zircon Brick",
 
   "itemGroup.yaszotab": "Yaszo Mod"
 }

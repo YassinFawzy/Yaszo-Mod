@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "yaszomod:zircon_brick"
+  },
+  "result": "yaszomod:chiseled_zircon_brick"
+}

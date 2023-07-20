@@ -55,6 +55,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> CHISELED_ZIRCON_BLOCK= registerBlock("chiseled_zircon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f)),
             ModCreativeModeTab.YASZO_TAB);
+    public static final RegistryObject<Block> ZIRCON_BRICK= registerBlock("zircon_brick",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f)),
+            ModCreativeModeTab.YASZO_TAB);
+    public static final RegistryObject<Block> CHISELED_ZIRCON_BRICK= registerBlock("chiseled_zircon_brick",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f)),
+            ModCreativeModeTab.YASZO_TAB);
 
 
     //HELP REGISTER BLOCK AND THE ITEM FOR THE BLOCK
