@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "yaszomod:zircon"
+    }
+  },
+  "result": {
+    "item": "yaszomod:zircon_chestplate"
+  }
+}
