@@ -31,6 +31,8 @@ public class ModItems {
                     return 3200;
                 }
             });
+    public static final RegistryObject<Item> ZIRCON_PICKAXE= ITEMS.register("zircon_pickaxe",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)));
 
     public static void register(IEventBus eventBus){
 

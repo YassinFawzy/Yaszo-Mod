@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+    "item": "yaszomod:charged_coal_block"
+    }
+  ],
+  "result": {
+    "item": "yaszomod:charged_coal",
+    "count": 9
+  }
+}

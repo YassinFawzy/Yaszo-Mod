@@ -5,12 +5,12 @@
     "###",
     "###"
   ],
-  "key":{
+  "key": {
     "#": {
-      "item": "yaszomod:zircon"
+      "item": "yaszomod:charged_coal"
     }
   },
-  "result":{
-    "item": "yaszomod:zircon_block"
+  "result": {
+    "item": "yaszomod:charged_coal_block"
   }
 }
