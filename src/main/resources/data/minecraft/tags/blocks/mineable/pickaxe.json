@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "yaszomod:zircon_block",
+    "yaszomod:zircon_ore",
+    "yaszomod:deepslate_zircon_ore",
+    "yaszomod:nether_zircon_ore",
+    "yaszomod:end_zircon_ore",
+    "yaszomod:charged_coal_block",
+    "yaszomod:chiseled_zircon_block",
+    "yaszomod:chiseled_zircon_brick",
+    "yaszomod:zircon_brick"
+  ]
+}

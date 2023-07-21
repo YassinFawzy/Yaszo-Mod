@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "yaszomod:zircon_ore",
+    "yaszomod:deepslate_zircon_ore",
+    "yaszomod:nether_zircon_ore",
+    "yaszomod:end_zircon_ore",
+  ]
+}
