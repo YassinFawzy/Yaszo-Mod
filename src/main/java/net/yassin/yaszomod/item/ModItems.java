@@ -30,15 +30,20 @@ public class ModItems {
                 }
             });
     public static final RegistryObject<Item> ZIRCON_PICKAXE= ITEMS.register("zircon_pickaxe",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)
+                    .stacksTo(1)));
     public static final RegistryObject<Item> ZIRCON_HELMET= ITEMS.register("zircon_helmet",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)
+                    .stacksTo(1)));
     public static final RegistryObject<Item> ZIRCON_CHESTPLATE = ITEMS.register("zircon_chestplate",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)
+                    .stacksTo(1)));
     public static final RegistryObject<Item> ZIRCON_LEGGINGS= ITEMS.register("zircon_leggings",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)
+                    .stacksTo(1)));
     public static final RegistryObject<Item> ZIRCON_BOOTS= ITEMS.register("zircon_boots",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)
+                    .stacksTo(1)));
 
     public static void register(IEventBus eventBus){
 
