@@ -2,12 +2,23 @@
   "item.yaszomod.zircon": "Zircon",
   "item.yaszomod.raw_zircon": "Raw Zircon",
   "item.yaszomod.zircon_pearl": "Zircon Pearl",
+  "item.yaszomod.zircon_nugget": "Zircon Nugget",
+  "item.yaszomod.charged_coal": "Charged Coal",
+  "item.yaszomod.zircon_pickaxe": "Zircon Pickaxe",
+  "item.yaszomod.zircon_helmet": "Zircon Helmet",
+  "item.yaszomod.zircon_chestplate": "Zircon Chestplate",
+  "item.yaszomod.zircon_leggings": "Zircon Leggings",
+  "item.yaszomod.zircon_boots": "Zircon Boots",
 
   "block.yaszomod.zircon_block": "Block of Zircon",
   "block.yaszomod.zircon_ore": "Zircon Ore",
   "block.yaszomod.deepslate_zircon_ore": "Deepslate Zircon Ore",
-  "block.yaszomod.netherrack_zircon_ore": "Netherrack Zircon Ore",
-  "block.yaszomod.endstonezircon_ore": "Endstone Zircon Ore",
+  "block.yaszomod.nether_zircon_ore": "Netherrack Zircon Ore",
+  "block.yaszomod.end_zircon_ore": "Endstone Zircon Ore",
+  "block.yaszomod.chiseled_zircon_block": "Chiseled Zircon Block",
+  "block.yaszomod.zircon_brick": "Zircon Brick",
+  "block.yaszomod.chiseled_zircon_brick": "Chiseled Zircon Brick",
+  "block.yaszomod.charged_coal_block": "Block of Charged Coal",
 
   "itemGroup.yaszotab": "Yaszo Mod"
 }
