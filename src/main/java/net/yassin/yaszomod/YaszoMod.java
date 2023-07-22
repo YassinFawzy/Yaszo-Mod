@@ -10,6 +10,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.yassin.yaszomod.block.ModBlocks;
 import net.yassin.yaszomod.item.ModItems;
+import net.yassin.yaszomod.item.custom.EightBallItem;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file

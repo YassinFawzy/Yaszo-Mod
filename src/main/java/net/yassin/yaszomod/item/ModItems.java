@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yassin.yaszomod.YaszoMod;
+import net.yassin.yaszomod.item.custom.EightBallItem;
 import org.jetbrains.annotations.Nullable;
 
 public class ModItems {
@@ -15,9 +16,11 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, YaszoMod.MOD_ID);
 
     public static final RegistryObject<Item> ZIRCON= ITEMS.register("zircon",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> RAW_ZIRCON= ITEMS.register("raw_zircon",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+    public static final RegistryObject<Item> EIGHT_BALL= ITEMS.register("eight_ball",
+            () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).stacksTo(1)));
     public static final RegistryObject<Item> ZIRCON_PEARL= ITEMS.register("zircon_pearl",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB).stacksTo(16)));
     public static  final RegistryObject<Item> ZIRCON_NUGGET= ITEMS.register("zircon_nugget",

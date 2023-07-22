@@ -15,6 +15,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yassin.yaszomod.YaszoMod;
+import net.yassin.yaszomod.block.custom.TrampolineBlock;
 import net.yassin.yaszomod.item.ModCreativeModeTab;
 import net.yassin.yaszomod.item.ModItems;
 import org.jetbrains.annotations.Nullable;
@@ -30,31 +31,35 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops()),
-            ModCreativeModeTab.YASZO_TAB);
+            ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> ZIRCON_ORE= registerBlock("zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)),
-            ModCreativeModeTab.YASZO_TAB);
+            ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> DEEPSLATE_ZIRCON_ORE= registerBlock("deepslate_zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)),
-            ModCreativeModeTab.YASZO_TAB);
+            ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> NETHERRACK_ZIRCON_ORE= registerBlock("nether_zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)),
-            ModCreativeModeTab.YASZO_TAB);
+            ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> ENDSTONE_ZIRCON_ORE= registerBlock("end_zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)),
-            ModCreativeModeTab.YASZO_TAB);
+            ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> TRAMPOLINE_BLOCK= registerBlock("trampoline_block",
+            () -> new TrampolineBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> CHISELED_ZIRCON_BLOCK= registerBlock("chiseled_zircon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)),
