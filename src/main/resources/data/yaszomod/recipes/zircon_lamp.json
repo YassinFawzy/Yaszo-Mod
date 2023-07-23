@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zircon",
+  "pattern": [
+    "#@#",
+    "@#@",
+    "#@#"
+  ],
+  "key":{
+    "#": {
+      "item": "yaszomod:zircon"
+    },
+    "@": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result":{
+    "item": "yaszomod:zircon_lamp"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zircon",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key":{
+    "#": {
+      "item": "minecraft:obsidian"
+    },
+    "@": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result":{
+    "item": "yaszomod:eight_ball"
+  }
+}

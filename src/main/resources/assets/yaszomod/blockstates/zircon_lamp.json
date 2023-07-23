@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": {"model": "yaszomod:block/zircon_lamp_on"},
+    "lit=false": {"model": "yaszomod:block/zircon_lamp_off"}
+  }
+}

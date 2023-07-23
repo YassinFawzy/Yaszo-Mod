@@ -21,6 +21,8 @@
   "block.yaszomod.chiseled_zircon_brick": "Chiseled Zircon Brick",
   "block.yaszomod.charged_coal_block": "Block of Charged Coal",
   "block.yaszomod.trampoline_block": "Trampoline",
+  "block.yaszomod.zircon_lamp": "Zircon Lamp",
+
   "itemGroup.tutorial_tab": "Tutorial Mod",
   "itemGroup.yaszo_tab": "Yaszo Mod"
 }

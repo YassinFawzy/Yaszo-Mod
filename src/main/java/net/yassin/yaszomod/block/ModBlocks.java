@@ -16,6 +16,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yassin.yaszomod.YaszoMod;
 import net.yassin.yaszomod.block.custom.TrampolineBlock;
+import net.yassin.yaszomod.block.custom.ZirconLampBlock;
 import net.yassin.yaszomod.item.ModCreativeModeTab;
 import net.yassin.yaszomod.item.ModItems;
 import org.jetbrains.annotations.Nullable;
@@ -26,7 +27,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS=
             DeferredRegister.create(ForgeRegistries.BLOCKS, YaszoMod.MOD_ID);
 
-    //NEW BLOCKS ADDED HERE
+    //-------------------------------------------------- Tutorial Stuff --------------------------------------------------//
     public static final RegistryObject<Block> ZIRCON_BLOCK= registerBlock("zircon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
@@ -60,6 +61,12 @@ public class ModBlocks {
             () -> new TrampolineBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> ZIRCON_LAMP= registerBlock("zircon_lamp",
+            () -> new ZirconLampBlock(BlockBehaviour.Properties.of(Material.GLASS)
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(ZirconLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.TUTORIAL_TAB);
+    //-------------------------------------------------- Yassin Stuff --------------------------------------------------//
     public static final RegistryObject<Block> CHISELED_ZIRCON_BLOCK= registerBlock("chiseled_zircon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)),
