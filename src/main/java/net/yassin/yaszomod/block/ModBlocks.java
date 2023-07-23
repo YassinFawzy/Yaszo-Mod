@@ -1,5 +1,6 @@
 package net.yassin.yaszomod.block;
 
+import net.minecraft.advancements.critereon.BlockPredicate;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -7,6 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -15,6 +17,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yassin.yaszomod.YaszoMod;
+import net.yassin.yaszomod.block.custom.BlueberryCropBlock;
 import net.yassin.yaszomod.block.custom.TrampolineBlock;
 import net.yassin.yaszomod.block.custom.ZirconLampBlock;
 import net.yassin.yaszomod.item.ModCreativeModeTab;
@@ -66,6 +69,8 @@ public class ModBlocks {
                     .strength(4f)
                     .requiresCorrectToolForDrops()
                     .lightLevel(state -> state.getValue(ZirconLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> BLUEBERRY_CROP= BLOCKS.register("blueberry_crop",
+            () -> new BlueberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
     //-------------------------------------------------- Yassin Stuff --------------------------------------------------//
     public static final RegistryObject<Block> CHISELED_ZIRCON_BLOCK= registerBlock("chiseled_zircon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)

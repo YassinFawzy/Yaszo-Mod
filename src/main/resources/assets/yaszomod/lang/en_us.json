@@ -10,6 +10,8 @@
   "item.yaszomod.zircon_chestplate": "Zircon Chestplate",
   "item.yaszomod.zircon_leggings": "Zircon Leggings",
   "item.yaszomod.zircon_boots": "Zircon Boots",
+  "item.yaszomod.blueberry": "Blueberry",
+  "item.yaszomod.blueberry_seeds": "Blueberry Seeds",
 
   "block.yaszomod.zircon_block": "Block of Zircon",
   "block.yaszomod.zircon_ore": "Zircon Ore",
@@ -22,6 +24,7 @@
   "block.yaszomod.charged_coal_block": "Block of Charged Coal",
   "block.yaszomod.trampoline_block": "Trampoline",
   "block.yaszomod.zircon_lamp": "Zircon Lamp",
+  "block.yaszomod.blueberry_crop": "Blueberry Crop",
 
   "itemGroup.tutorial_tab": "Tutorial Mod",
   "itemGroup.yaszo_tab": "Yaszo Mod"

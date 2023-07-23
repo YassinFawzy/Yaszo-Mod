@@ -1,6 +1,8 @@
 package net.yassin.yaszomod.item;
 
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -8,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yassin.yaszomod.YaszoMod;
+import net.yassin.yaszomod.block.ModBlocks;
 import net.yassin.yaszomod.item.custom.EightBallItem;
 import org.jetbrains.annotations.Nullable;
 
@@ -15,12 +18,20 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS=
             DeferredRegister.create(ForgeRegistries.ITEMS, YaszoMod.MOD_ID);
 
+    //-------------------------------------------------- Tutorial Stuff --------------------------------------------------//
     public static final RegistryObject<Item> ZIRCON= ITEMS.register("zircon",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> RAW_ZIRCON= ITEMS.register("raw_zircon",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> EIGHT_BALL= ITEMS.register("eight_ball",
             () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> BLUEBERRY_SEEDS= ITEMS.register("blueberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.BLUEBERRY_CROP.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+    public static final RegistryObject<Item> BLUEBERRY= ITEMS.register("blueberry",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)
+                    .food(new FoodProperties.Builder().nutrition(2).saturationMod(2).build())));
+    //-------------------------------------------------- Yassin Stuff --------------------------------------------------//
     public static final RegistryObject<Item> ZIRCON_PEARL= ITEMS.register("zircon_pearl",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.YASZO_TAB).stacksTo(16)));
     public static  final RegistryObject<Item> ZIRCON_NUGGET= ITEMS.register("zircon_nugget",
